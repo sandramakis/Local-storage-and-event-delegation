@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFRRVpRXxbXoUB2vGYHmOubs08XLhJ-IhrhA&usqp=CAU&reload=on");
+  background-size: contain;
+  padding: 12rem;
+  font-family: "Courier New", Courier, monospace;
+}
+
+section,
+form {
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+li {
+  list-style-type: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-transform: capitalize;
+  background-color: #ddd;
+  opacity: 0.9;
+  padding: 5px;
+  margin: 2px;
+  width: 100%;
+  font-size: small;
+  border-bottom: 1px solid black;
+}
+
+input {
+  padding: 3px;
+}
+
+li:nth-child(odd) {
+  background-color: #ccc;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    padding: 7rem;
+  }
+}
