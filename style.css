@@ -36,12 +36,22 @@ li {
   border-bottom: 1px solid black;
 }
 
-input {
+input,
+button {
   padding: 3px;
+}
+
+button {
+  margin-top: 5px;
 }
 
 li:nth-child(odd) {
   background-color: #ccc;
+}
+
+label,
+button {
+  cursor: pointer;
 }
 
 @media screen and (max-width: 767px) {
